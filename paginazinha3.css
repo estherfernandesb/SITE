@@ -1,0 +1,120 @@
+body{
+    background-color: #FFDEE9;
+}
+
+header {
+    background: #FCBDD4;
+    padding: 20px 0;
+}
+.logo{
+    max-width:175px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+}
+.pedra {
+    font-family: Cambria;
+    position: relative;
+    width: 840px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #B20068;
+}
+nav a:active{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+footer{
+    font-family: Times New Roman;
+    text-align: center;
+    padding: 40px 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-family: Times New Roman;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding:  10px 25px;
+    width:  50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.botao{
+    background-color: #E84F96;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Cambria;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
+    border-radius: 10px;
+    border-color: #E84F96;
+    transition: 1s all;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: #DE0082;
+    transform: scale(1.2);
+}
+table{
+    font-family: Cambria;  
+}
+thead{
+    background: #FCBDD4;
+    font-weight: bold;
+}
+td, th{
+    border:  1px solid #B20068;
+    padding:  8px 15px;
+}
+}
+footer {
+    font-family: Times New Roman;
+    text-align: center;
+    padding: 40px 0;
+}
+.imagem {
+    max-width:175px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+}
+.copyright{
+    font-size: 13px;
+    margin: 20px;
+}

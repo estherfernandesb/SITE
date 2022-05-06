@@ -1,0 +1,119 @@
+body{
+    background-color: #FFDEE9;
+}
+
+header {
+    background: #FCBDD4;
+    padding: 20px 0;
+}
+.logo{
+    max-width:175px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+}
+.pedra {
+    font-family: Cambria;
+    position: relative;
+    width: 840px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #B20068;
+}
+nav a:active{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+main{
+    font-family: Cambria;
+}
+.conteudo {
+    padding: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center
+}
+
+#bloco-conteudo {
+    font-family: Times New Roman;
+    font-size: 23px;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 30px;
+    padding: 30px;
+}
+
+em strong {
+    color: darkmagenta;
+}
+
+.itens {
+    font-family: Times New Roman;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.beneficios {
+    background: #FFDEE9;
+    padding: 20px;
+}
+
+.c-itens {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 15%;
+}
+
+.img2 {
+    width: 40%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+footer{
+    font-family: Times New Roman;
+    text-align: center;
+    padding: 40px 0;
+}
+.logo-branca{
+    max-width:175px;
+    max-height:190px;
+    width: auto;
+    height: auto;
+}
+
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin-top: 20px;
+}
